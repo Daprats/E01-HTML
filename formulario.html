@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+                <label 
+                    for="codigo">Código:
+                </label>
+                <input type="number">
+            <br><br>
+                <label 
+                    for="nome">Nome:
+                </label>
+                <input type="text">
+            <br><br>
+                <label 
+                    for="senha">Senha:
+                </label>
+                <input type="password">
+            <br><br>
+                <label>Sexo:</label>
+                <label>
+                    <input type="radio" name="Sexo"> 
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" name="Sexo">
+                    Feminino
+                </label>
+            <br><br>
+                <label
+                    for="idade">Idade:
+                </label>
+                <input type="number">
+            <br><br>
+                <label
+                    for="cartao">Cartão de Crédito:</label>
+                </label>
+                <select>
+                    <option value="">Visa</option>
+                    <option value="">MasterCard</option>
+                    <option value="">AmericanExpress</option>
+                </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label
+                for="cargo">Cargo:
+            </label>
+                <select>
+                    <option value="">Analista Junior</option>
+                    <option value="">Analista Pleno</option>
+                    <option value="">Analista Sênior</option>
+                </select>
+                <br>
+            <br>
+                <label for="dados">Dados Pessoais:
+            <br>
+                <input type="checkbox"> Fumante
+            <br>
+                <input type="checkbox"> Pratica Exercícios Físicos
+            <br>
+                <input type="checkbox"> Consome bebida alcoólica
+                </label>
+            <br><br>
+            Experiências Profissionais:
+                <label>
+                    <br>
+                    <textarea placeholder="Digite as suas experiências"></textarea>
+                </label>
+        </fieldset>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
